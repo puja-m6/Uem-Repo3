@@ -15,6 +15,7 @@ public class TestNGMethods {
 	@Test
 	public void btest1() {
 		System.out.println("Test 1");
+		System.out.println("This is my second commit");
 	}
 	//@Test(priority=3)
 	@Test(dependsOnMethods = "btest1")
