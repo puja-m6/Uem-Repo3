@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-12T10:56:02 IST" name="Default suite" finished-at="2026-03-12T10:56:20 IST" duration-ms="17646">
+    <groups>
+    </groups>
+    <test started-at="2026-03-12T10:56:02 IST" name="Default test" finished-at="2026-03-12T10:56:20 IST" duration-ms="17646">
+      <class name="addProductToCart.AddProductToCart">
+        <test-method is-config="true" signature="login()[pri:0, instance:addProductToCart.AddProductToCart@28701274]" started-at="2026-03-12T10:56:02 IST" name="login" finished-at="2026-03-12T10:56:11 IST" duration-ms="8710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="fetchAllProducts()[pri:0, instance:addProductToCart.AddProductToCart@28701274]" started-at="2026-03-12T10:56:11 IST" name="fetchAllProducts" finished-at="2026-03-12T10:56:18 IST" duration-ms="6879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchAllProducts -->
+        <test-method signature="addProduct()[pri:0, instance:addProductToCart.AddProductToCart@28701274]" started-at="2026-03-12T10:56:18 IST" name="addProduct" finished-at="2026-03-12T10:56:19 IST" depends-on-methods="fetchAllProducts()" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method signature="updateCart()[pri:0, instance:addProductToCart.AddProductToCart@28701274]" started-at="2026-03-12T10:56:19 IST" name="updateCart" finished-at="2026-03-12T10:56:19 IST" depends-on-methods="addProductToCart.AddProductToCart.addProduct" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCart -->
+        <test-method signature="deleteProduct()[pri:0, instance:addProductToCart.AddProductToCart@28701274]" started-at="2026-03-12T10:56:19 IST" name="deleteProduct" finished-at="2026-03-12T10:56:20 IST" depends-on-methods="addProductToCart.AddProductToCart.updateCart" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+      </class> <!-- addProductToCart.AddProductToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
