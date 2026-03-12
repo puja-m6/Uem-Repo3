@@ -17,6 +17,7 @@ public class TestNGMethods {
 		System.out.println("Test 1");
 		System.out.println("This is my second commit");
 		System.out.println("Creating a new branch : main");
+		System.out.println("Changing in main branch");
 	}
 	//@Test(priority=3)
 	@Test(dependsOnMethods = "btest1")
